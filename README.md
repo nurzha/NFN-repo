@@ -1,3 +1,3 @@
-# airbnb clone project
+# Airbnb clone project
 
 Portfolio project for the bootcamp
