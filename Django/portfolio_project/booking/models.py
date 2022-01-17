@@ -7,7 +7,7 @@ class Booking(models.Model):
     date = models.DateTimeField(auto_now=False, auto_now_add=False)
     checkin = models.DateTimeField(auto_now=False, auto_now_add=False)
     checkout = models.DateTimeField(auto_now=False, auto_now_add=False)
-    numguest = models.IntegerField(max_length=2)
+    numguest = models.IntegerField()
     
 class Guest(models.Model):
     firsname = models.CharField(max_length= 100, blank=False, null=False)
