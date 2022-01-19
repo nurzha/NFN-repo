@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'listing',
     'payments',
     'reviews',
+    'djmoney',
 ]
 
 MIDDLEWARE = [
