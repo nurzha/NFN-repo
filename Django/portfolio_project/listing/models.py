@@ -16,4 +16,5 @@ class Listing(models.Model):
     max_guests = models.IntegerField(null=False)
     type_of = models.CharField(max_length=10, choices=TYPE_CHOICES)
     email = models.EmailField(max_length=100, null=False)
-    host_name = models.ForeignKey(Host, on_delete=models.CASCADE)
+    host_id = models.ForeignKey(Host, on_delete=models.CASCADE)
+
